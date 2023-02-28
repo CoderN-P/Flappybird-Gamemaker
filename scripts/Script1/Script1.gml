@@ -8,9 +8,6 @@ function lose_life(){
 	} else {
 		global.paused = true
 		alarm[2] = room_speed*2
-		with (obj_cactus) {
-			hspeed = 0
-		}
 
 }
 }
